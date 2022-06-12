@@ -22,5 +22,5 @@ class MenadzerPolaczen:
 
     def pobierz_najczesciej_dzwoniacego(self):
         return max(self.data_dict.items(), key=lambda x: x[1])
-if _name_ == "_main_":
+if __name__ == "__main__":
      print(MenadzerPolaczen(input()).pobierz_najczesciej_dzwoniacego()
